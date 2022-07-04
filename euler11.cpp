@@ -1,3 +1,4 @@
+#include <cstdio>
 #include <endian.h>
 #include <iostream>
 #include <string>
@@ -30,6 +31,7 @@ string matrix[20] ={
 
 int majorIntArr[20][20];
 
+// Slits the array into a matrix of integers.
 void splitter(string array[20])
 {
     for(int j = 0; j < 20; j++)
